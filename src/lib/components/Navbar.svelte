@@ -1,3 +1,7 @@
+<script lang="ts">
+    import StatusBadge from '$lib/components/StatusBadge.svelte';
+</script>
+
 <nav class="sticky top-0 z-50 w-full bg-slate-50/80 backdrop-blur-md border-b border-slate-200">
     <div class="max-w-3xl mx-auto px-6 h-16 flex justify-between items-center">
         <!-- Brand Change: Minimalist Terminal/Code Icon + Full Name -->
@@ -12,6 +16,7 @@
         <div class="flex items-center gap-6 text-xs font-medium text-slate-500">
             <a href="#about" class="hover:text-slate-900 transition-colors">About</a>
             <a href="#experience" class="hover:text-slate-900 transition-colors">Experience</a>
+            <StatusBadge />
         </div>
     </div>
 </nav>
