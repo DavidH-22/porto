@@ -14,6 +14,14 @@
 
 <div class="mx-auto max-w-3xl px-4 py-12">
 	
+	<a href="/" class="mb-6 inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-600 shadow-xs transition hover:border-slate-300 hover:text-slate-900">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+			<line x1="19" y1="12" x2="5" y2="12"></line>
+			<polyline points="12 19 5 12 12 5"></polyline>
+		</svg>
+		Back to Home
+	</a>
+
 	<div class="mb-8 flex items-center justify-between border-b border-slate-200 pb-6">
 		<div>
 			<h1 class="text-2xl font-semibold tracking-tight text-slate-900">System Operational Status</h1>
